@@ -1,14 +1,13 @@
 {
   "name": "htmlclose",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An extremely crude way of closing open html elements in a string of html",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "sax": "^0.6.0",
-    "underscore": "^1.6.0"
+    "sax": "^0.6.0"
   },
   "devDependencies": {},
   "scripts": {
