@@ -11,8 +11,10 @@ $ npm install htmlclose
 ```javascript
 var htmlclose = require('htmlclose');
 
-htmlclose('<div class="foo"><span>this is a div</span>');
-// => "<div class="foo"><span>this is a div</span></div>"
+htmlclose('<div class="foo"><span>this is a div</span>', function(err, html){
+	console.log(html);
+	// => "<div class="foo"><span>this is a div</span></div>"
+});
 ```
 
 ## Tests
