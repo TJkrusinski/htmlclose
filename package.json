@@ -1,0 +1,31 @@
+{
+  "name": "htmlclose",
+  "version": "0.0.0",
+  "description": "An extremely crude way of closing open html elements in a string of html",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "sax": "^0.6.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TJkrusinski/htmlclose.git"
+  },
+  "keywords": [
+    "html",
+    "close"
+  ],
+  "author": "TJ Krusinski <tjkrus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/htmlclose/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/htmlclose"
+}
